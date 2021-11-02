@@ -49,6 +49,18 @@ public class LineComparision {
 			System.out.println("not equal");
 		}
 		
+		int compare = le1.compareTo(le2);
+		
+		if (compare>0) {
+			System.out.println("length1 greater than length2");
+		}
+		else if (compare<0) {
+			System.out.println("length1 less than length2");
+		}
+		else {
+			System.out.println("length1 equal length2");
+		}
+		
 		
 	}
 
